@@ -1,0 +1,379 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{36388AF2-5974-4F95-B1F9-252C83FFBDC0}</ProjectGuid>
+    <ProjectTypeGuids>{349c5851-65df-11da-9384-00065b846f21};{fae04ec0-301f-11d3-bf4b-00c04f79efbc}</ProjectTypeGuids>
+    <OutputType>Library</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AppViewer.UI</RootNamespace>
+    <AssemblyName>AppViewer.UI</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <UseIISExpress>false</UseIISExpress>
+    <IISExpressSSLPort />
+    <IISExpressAnonymousAuthentication />
+    <IISExpressWindowsAuthentication />
+    <IISExpressUseClassicPipelineMode />
+    <SccProjectName>SAK</SccProjectName>
+    <SccLocalPath>SAK</SccLocalPath>
+    <SccAuxPath>SAK</SccAuxPath>
+    <SccProvider>SAK</SccProvider>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Web.DynamicData" />
+    <Reference Include="System.Web.Entity" />
+    <Reference Include="System.Web.ApplicationServices" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
+    <Reference Include="System" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="System.Web.Extensions" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Web" />
+    <Reference Include="System.Xml" />
+    <Reference Include="System.Configuration" />
+    <Reference Include="System.Web.Services" />
+    <Reference Include="System.EnterpriseServices" />
+    <Reference Include="NReco.VideoConverter">
+      <HintPath>..\packages\NReco.VideoConverter.1.0.6.0\lib\net20\NReco.VideoConverter.dll</HintPath>
+    </Reference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Account\AddPage.aspx" />
+    <Content Include="Account\AccountSettings.aspx" />
+    <Content Include="Account\AuditsHome.aspx" />
+    <Content Include="Account\AuditsOverview.aspx" />
+    <Content Include="Account\AuditDetails.aspx" />
+    <Content Include="Account\AppWizardStep1.aspx" />
+    <Content Include="Account\AppWizardStep2.aspx" />
+    <Content Include="Account\ManageTeams.aspx" />
+    <Content Include="Account\ManageUsers.aspx" />
+    <Content Include="Account\CreateNewUser.aspx" />
+    <Content Include="Account\ManageDemo.aspx" />
+    <Content Include="Account\Service\ManagePage.asmx" />
+    <Content Include="Account\UpdatePage.aspx" />
+    <Content Include="Account\ManageApp.aspx" />
+    <Content Include="Account\ManagePage.aspx" />
+    <Content Include="AppViewerSplash.aspx" />
+    <Content Include="js\bootstrap.js" />
+    <Content Include="js\bootstrap.min.js" />
+    <Content Include="js\npm.js" />
+    <Content Include="SITradeshow.aspx" />
+    <Content Include="Image\devicelogo.png" />
+    <Content Include="Image\ipad-vertical.png" />
+    <Content Include="Image\settings.png" />
+    <Content Include="Image\splashbackground.png" />
+    <Content Include="Image\userlogo.png" />
+    <Content Include="Image\ActiveStatus.png" />
+    <Content Include="Image\AppViewerRuler.png" />
+    <Content Include="Image\Home.png" />
+    <Content Include="Account\AddApp.aspx" />
+    <Content Include="Account\Login.aspx" />
+    <Content Include="Account\ManageApps.aspx" />
+    <Content Include="AppViewerHome.aspx" />
+    <Content Include="favicon.ico" />
+    <Content Include="Image\AtosLogo.jpg" />
+    <Content Include="Image\buttonbg.jpg" />
+    <Content Include="Image\DefaultAppImage.jpg" />
+    <Content Include="Image\DefaultAppImage.png" />
+    <Content Include="Image\iphone5-vertical.png" />
+    <Content Include="Image\NotActiveStatus.png" />
+    <Content Include="Image\PortraitRuler.png" />
+    <Content Include="jscolor\arrow.gif" />
+    <Content Include="jscolor\cross.gif" />
+    <Content Include="jscolor\demo.html" />
+    <Content Include="jscolor\hs.png" />
+    <Content Include="jscolor\hv.png" />
+    <Content Include="jscolor\jscolor.js" />
+    <Content Include="packages.config" />
+    <Content Include="GetImage.ashx" />
+    <Content Include="MasterPage\SI.Master" />
+    <None Include="Properties\PublishProfiles\Test.pubxml" />
+    <None Include="Properties\PublishProfiles\Web Release.pubxml" />
+    <None Include="Scripts\jquery-2.1.1.intellisense.js" />
+    <Content Include="Scripts\AddApp.js" />
+    <Content Include="Scripts\AddPage.js" />
+    <Content Include="Scripts\Audits.js" />
+    <Content Include="Scripts\AddAppWizardStep1.js" />
+    <Content Include="Scripts\AddAppWizardStep2.js" />
+    <Content Include="Scripts\gauges.min.js" />
+    <Content Include="Scripts\hammer.min.js" />
+    <Content Include="Scripts\Login.js" />
+    <Content Include="Scripts\ManagePage.js" />
+    <Content Include="Scripts\AccountSettings.js" />
+    <Content Include="Scripts\Site.js" />
+    <Content Include="Scripts\Viewer.js" />
+    <Content Include="Scripts\jquery-2.1.1.js" />
+    <Content Include="Scripts\jquery-2.1.1.min.js" />
+    <Content Include="Scripts\jquery-ui-1.11.2.js" />
+    <Content Include="Scripts\jquery-ui-1.11.2.min.js" />
+    <Content Include="Scripts\AppHome.js" />
+    <Content Include="Style\SI.css" />
+    <Content Include="Style\Site.css" />
+    <Content Include="Style\Splash.css" />
+    <Content Include="Video\OfficeVideo.mp4" />
+    <Content Include="Viewer.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Account\AddApp.aspx.cs">
+      <DependentUpon>AddApp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\AddApp.aspx.designer.cs">
+      <DependentUpon>AddApp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\AddPage.aspx.cs">
+      <DependentUpon>AddPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\AddPage.aspx.designer.cs">
+      <DependentUpon>AddPage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\AccountSettings.aspx.cs">
+      <DependentUpon>AccountSettings.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\AccountSettings.aspx.designer.cs">
+      <DependentUpon>AccountSettings.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\AuditsHome.aspx.cs">
+      <DependentUpon>AuditsHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\AuditsHome.aspx.designer.cs">
+      <DependentUpon>AuditsHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\AuditsOverview.aspx.cs">
+      <DependentUpon>AuditsOverview.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\AuditsOverview.aspx.designer.cs">
+      <DependentUpon>AuditsOverview.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\AuditDetails.aspx.cs">
+      <DependentUpon>AuditDetails.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\AuditDetails.aspx.designer.cs">
+      <DependentUpon>AuditDetails.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\AppWizardStep1.aspx.cs">
+      <DependentUpon>AppWizardStep1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\AppWizardStep1.aspx.designer.cs">
+      <DependentUpon>AppWizardStep1.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\AppWizardStep2.aspx.cs">
+      <DependentUpon>AppWizardStep2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\AppWizardStep2.aspx.designer.cs">
+      <DependentUpon>AppWizardStep2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ManageTeams.aspx.cs">
+      <DependentUpon>ManageTeams.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ManageTeams.aspx.designer.cs">
+      <DependentUpon>ManageTeams.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ManageUsers.aspx.cs">
+      <DependentUpon>ManageUsers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ManageUsers.aspx.designer.cs">
+      <DependentUpon>ManageUsers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\CreateNewUser.aspx.cs">
+      <DependentUpon>CreateNewUser.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\CreateNewUser.aspx.designer.cs">
+      <DependentUpon>CreateNewUser.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ManageDemo.aspx.cs">
+      <DependentUpon>ManageDemo.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ManageDemo.aspx.designer.cs">
+      <DependentUpon>ManageDemo.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Service\ManagePage.asmx.cs">
+      <DependentUpon>ManagePage.asmx</DependentUpon>
+      <SubType>Component</SubType>
+    </Compile>
+    <Compile Include="Account\UpdatePage.aspx.cs">
+      <DependentUpon>UpdatePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\UpdatePage.aspx.designer.cs">
+      <DependentUpon>UpdatePage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ManageApp.aspx.cs">
+      <DependentUpon>ManageApp.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ManageApp.aspx.designer.cs">
+      <DependentUpon>ManageApp.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\Login.aspx.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\Login.aspx.designer.cs">
+      <DependentUpon>Login.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ManageApps.aspx.cs">
+      <DependentUpon>ManageApps.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ManageApps.aspx.designer.cs">
+      <DependentUpon>ManageApps.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Account\ManagePage.aspx.cs">
+      <DependentUpon>ManagePage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Account\ManagePage.aspx.designer.cs">
+      <DependentUpon>ManagePage.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AppViewerHome.aspx.cs">
+      <DependentUpon>AppViewerHome.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AppViewerHome.aspx.designer.cs">
+      <DependentUpon>AppViewerHome.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="AppViewerSplash.aspx.cs">
+      <DependentUpon>AppViewerSplash.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="AppViewerSplash.aspx.designer.cs">
+      <DependentUpon>AppViewerSplash.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPage\SI.Master.cs">
+      <DependentUpon>SI.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage\SI.Master.designer.cs">
+      <DependentUpon>SI.Master</DependentUpon>
+    </Compile>
+    <Compile Include="SITradeshow.aspx.cs">
+      <DependentUpon>SITradeshow.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="SITradeshow.aspx.designer.cs">
+      <DependentUpon>SITradeshow.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="GetImage.ashx.cs">
+      <DependentUpon>GetImage.ashx</DependentUpon>
+    </Compile>
+    <Compile Include="MasterPage\Site.Master.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="MasterPage\Site.Master.designer.cs">
+      <DependentUpon>Site.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Viewer.aspx.cs">
+      <DependentUpon>Viewer.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Viewer.aspx.designer.cs">
+      <DependentUpon>Viewer.aspx</DependentUpon>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="MasterPage\Site.Master" />
+    <Content Include="Scripts\jquery-2.1.1.min.map" />
+    <None Include="Web.Debug.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+    <None Include="Web.Release.config">
+      <DependentUpon>Web.config</DependentUpon>
+    </None>
+  </ItemGroup>
+  <ItemGroup />
+  <ItemGroup>
+    <ProjectReference Include="..\AppViewer.Audit\AppViewer.Audit.csproj">
+      <Project>{C15EB784-0AD8-42F6-87A0-DF19B43C08BF}</Project>
+      <Name>AppViewer.Audit</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AppViewer.Business\AppViewer.Business.csproj">
+      <Project>{36C7F9CD-D7BE-46F9-8D26-463A66A08876}</Project>
+      <Name>AppViewer.Business</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AppViewer.Entities\AppViewer.Entities.csproj">
+      <Project>{379BA5FC-D10D-4997-A6C3-990AC62A3413}</Project>
+      <Name>AppViewer.Entities</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\AppViewer.Security\AppViewer.Security.csproj">
+      <Project>{66F3A437-68B8-4C53-8CDA-34ECBDD95607}</Project>
+      <Name>AppViewer.Security</Name>
+    </ProjectReference>
+  </ItemGroup>
+  <PropertyGroup>
+    <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
+    <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>
+  </PropertyGroup>
+  <Import Project="$(MSBuildBinPath)\Microsoft.CSharp.targets" />
+  <Import Project="$(VSToolsPath)\WebApplications\Microsoft.WebApplication.targets" Condition="'$(VSToolsPath)' != ''" />
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v10.0\WebApplications\Microsoft.WebApplication.targets" Condition="false" />
+  <ProjectExtensions>
+    <VisualStudio>
+      <FlavorProperties GUID="{349c5851-65df-11da-9384-00065b846f21}">
+        <WebProjectProperties>
+          <UseIIS>True</UseIIS>
+          <AutoAssignPort>True</AutoAssignPort>
+          <DevelopmentServerPort>58825</DevelopmentServerPort>
+          <DevelopmentServerVPath>/</DevelopmentServerVPath>
+          <IISUrl>http://localhost/AppViewer</IISUrl>
+          <NTLMAuthentication>False</NTLMAuthentication>
+          <UseCustomServer>False</UseCustomServer>
+          <CustomServerUrl>
+          </CustomServerUrl>
+          <SaveServerSettingsInUserFile>False</SaveServerSettingsInUserFile>
+        </WebProjectProperties>
+      </FlavorProperties>
+    </VisualStudio>
+    <MonoDevelop>
+      <Properties>
+        <XspParameters Port="8080" Address="127.0.0.1" SslMode="None" SslProtocol="Default" KeyType="None" CertFile="" KeyFile="" PasswordOptions="None" Password="" Verbose="True" />
+      </Properties>
+    </MonoDevelop>
+  </ProjectExtensions>
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

@@ -1,0 +1,272 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<!--
+This file is used by the publish/package process of your Web project. You can customize the behavior of this process
+by editing this MSBuild file. In order to learn more about this please visit http://go.microsoft.com/fwlink/?LinkID=208121. 
+-->
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <PropertyGroup>
+    <LastUsedBuildConfiguration>Release</LastUsedBuildConfiguration>
+    <LastUsedPlatform>Any CPU</LastUsedPlatform>
+    <TimeStampOfAssociatedLegacyPublishXmlFile />
+  </PropertyGroup>
+  <ItemGroup>
+    <File Include="Account/AddApp.aspx">
+      <publishTime>03/02/2015 16:03:56</publishTime>
+    </File>
+    <File Include="Account/AddPage.aspx">
+      <publishTime>03/09/2015 13:58:46</publishTime>
+    </File>
+    <File Include="Account/ChangePassword.aspx">
+      <publishTime>03/23/2015 14:23:54</publishTime>
+    </File>
+    <File Include="Account/CreateNewUser.aspx">
+      <publishTime>03/23/2015 14:23:54</publishTime>
+    </File>
+    <File Include="Account/Login.aspx">
+      <publishTime>03/23/2015 14:23:34</publishTime>
+    </File>
+    <File Include="Account/ManageApp.aspx">
+      <publishTime>03/02/2015 16:03:56</publishTime>
+    </File>
+    <File Include="Account/ManageApps.aspx">
+      <publishTime>02/28/2015 00:34:34</publishTime>
+    </File>
+    <File Include="Account/ManagePage.aspx">
+      <publishTime>03/23/2015 14:23:35</publishTime>
+    </File>
+    <File Include="Account/ManageUser.aspx">
+      <publishTime>03/23/2015 14:23:54</publishTime>
+    </File>
+    <File Include="Account/Privilages.aspx">
+      <publishTime>03/23/2015 14:23:54</publishTime>
+    </File>
+    <File Include="Account/Service/ManagePage.asmx">
+      <publishTime>03/10/2015 22:56:00</publishTime>
+    </File>
+    <File Include="Account/Settings.aspx">
+      <publishTime>03/23/2015 14:23:54</publishTime>
+    </File>
+    <File Include="Account/UpdatePage.aspx">
+      <publishTime>03/05/2015 09:56:21</publishTime>
+    </File>
+    <File Include="AppViewerHome.aspx">
+      <publishTime>03/25/2015 14:44:54</publishTime>
+    </File>
+    <File Include="bin/AppViewer.Business.dll">
+      <publishTime>03/25/2015 15:18:23</publishTime>
+    </File>
+    <File Include="bin/AppViewer.Data.dll">
+      <publishTime>03/25/2015 15:18:22</publishTime>
+    </File>
+    <File Include="bin/AppViewer.Entities.dll">
+      <publishTime>03/25/2015 15:18:20</publishTime>
+    </File>
+    <File Include="bin/AppViewer.UI.dll">
+      <publishTime>03/25/2015 15:18:24</publishTime>
+    </File>
+    <File Include="Content/themes/base/accordion.css">
+      <publishTime>11/25/2014 14:48:20</publishTime>
+    </File>
+    <File Include="Content/themes/base/all.css">
+      <publishTime>11/25/2014 14:48:20</publishTime>
+    </File>
+    <File Include="Content/themes/base/autocomplete.css">
+      <publishTime>11/25/2014 14:48:20</publishTime>
+    </File>
+    <File Include="Content/themes/base/base.css">
+      <publishTime>11/25/2014 14:48:20</publishTime>
+    </File>
+    <File Include="Content/themes/base/button.css">
+      <publishTime>11/25/2014 14:48:20</publishTime>
+    </File>
+    <File Include="Content/themes/base/core.css">
+      <publishTime>11/25/2014 14:48:20</publishTime>
+    </File>
+    <File Include="Content/themes/base/datepicker.css">
+      <publishTime>11/25/2014 14:48:20</publishTime>
+    </File>
+    <File Include="Content/themes/base/dialog.css">
+      <publishTime>11/25/2014 14:48:20</publishTime>
+    </File>
+    <File Include="Content/themes/base/draggable.css">
+      <publishTime>11/25/2014 14:48:20</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_flat_0_aaaaaa_40x100.png">
+      <publishTime>11/25/2014 14:48:20</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_flat_75_ffffff_40x100.png">
+      <publishTime>11/25/2014 14:48:20</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_55_fbf9ee_1x400.png">
+      <publishTime>11/25/2014 14:48:20</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_65_ffffff_1x400.png">
+      <publishTime>11/25/2014 14:48:20</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_75_dadada_1x400.png">
+      <publishTime>11/25/2014 14:48:20</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_75_e6e6e6_1x400.png">
+      <publishTime>11/25/2014 14:48:20</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_glass_95_fef1ec_1x400.png">
+      <publishTime>11/25/2014 14:48:19</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-bg_highlight-soft_75_cccccc_1x100.png">
+      <publishTime>11/25/2014 14:48:19</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_222222_256x240.png">
+      <publishTime>11/25/2014 14:48:19</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_2e83ff_256x240.png">
+      <publishTime>11/25/2014 14:48:19</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_454545_256x240.png">
+      <publishTime>11/25/2014 14:48:19</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_888888_256x240.png">
+      <publishTime>11/25/2014 14:48:19</publishTime>
+    </File>
+    <File Include="Content/themes/base/images/ui-icons_cd0a0a_256x240.png">
+      <publishTime>11/25/2014 14:48:19</publishTime>
+    </File>
+    <File Include="Content/themes/base/menu.css">
+      <publishTime>11/25/2014 14:48:19</publishTime>
+    </File>
+    <File Include="Content/themes/base/progressbar.css">
+      <publishTime>11/25/2014 14:48:19</publishTime>
+    </File>
+    <File Include="Content/themes/base/resizable.css">
+      <publishTime>11/25/2014 14:48:19</publishTime>
+    </File>
+    <File Include="Content/themes/base/selectable.css">
+      <publishTime>11/25/2014 14:48:19</publishTime>
+    </File>
+    <File Include="Content/themes/base/selectmenu.css">
+      <publishTime>11/25/2014 14:48:19</publishTime>
+    </File>
+    <File Include="Content/themes/base/slider.css">
+      <publishTime>11/25/2014 14:48:19</publishTime>
+    </File>
+    <File Include="Content/themes/base/sortable.css">
+      <publishTime>11/25/2014 14:48:19</publishTime>
+    </File>
+    <File Include="Content/themes/base/spinner.css">
+      <publishTime>11/25/2014 14:48:19</publishTime>
+    </File>
+    <File Include="Content/themes/base/tabs.css">
+      <publishTime>11/25/2014 14:48:19</publishTime>
+    </File>
+    <File Include="Content/themes/base/theme.css">
+      <publishTime>11/25/2014 14:48:18</publishTime>
+    </File>
+    <File Include="Content/themes/base/tooltip.css">
+      <publishTime>11/25/2014 14:48:18</publishTime>
+    </File>
+    <File Include="favicon.ico">
+      <publishTime>11/07/2014 13:28:22</publishTime>
+    </File>
+    <File Include="GetImage.ashx">
+      <publishTime>12/19/2014 14:27:10</publishTime>
+    </File>
+    <File Include="Image/ActiveStatus.png">
+      <publishTime>03/02/2015 16:03:59</publishTime>
+    </File>
+    <File Include="Image/AppViewerRuler.png">
+      <publishTime>03/02/2015 16:03:59</publishTime>
+    </File>
+    <File Include="Image/AtosLogo.jpg">
+      <publishTime>10/31/2014 13:53:24</publishTime>
+    </File>
+    <File Include="Image/buttonbg.jpg">
+      <publishTime>11/07/2014 14:52:43</publishTime>
+    </File>
+    <File Include="Image/DefaultAppImage.jpg">
+      <publishTime>11/25/2014 15:57:30</publishTime>
+    </File>
+    <File Include="Image/DefaultAppImage.png">
+      <publishTime>11/25/2014 15:43:51</publishTime>
+    </File>
+    <File Include="Image/devicelogo.png">
+      <publishTime>03/23/2015 14:23:54</publishTime>
+    </File>
+    <File Include="Image/Home.png">
+      <publishTime>02/02/2015 14:38:35</publishTime>
+    </File>
+    <File Include="Image/ipad-vertical.png">
+      <publishTime>03/23/2015 14:23:54</publishTime>
+    </File>
+    <File Include="Image/iphone5-vertical.png">
+      <publishTime>12/19/2014 14:27:10</publishTime>
+    </File>
+    <File Include="Image/NotActiveStatus.png">
+      <publishTime>03/02/2015 16:03:59</publishTime>
+    </File>
+    <File Include="Image/PortraitRuler.png">
+      <publishTime>03/23/2015 14:23:35</publishTime>
+    </File>
+    <File Include="Image/settings.png">
+      <publishTime>03/23/2015 14:23:54</publishTime>
+    </File>
+    <File Include="Image/userlogo.png">
+      <publishTime>03/23/2015 14:23:54</publishTime>
+    </File>
+    <File Include="MasterPage/Site.Master">
+      <publishTime>03/23/2015 14:23:35</publishTime>
+    </File>
+    <File Include="mViewer.aspx">
+      <publishTime>03/04/2015 10:28:57</publishTime>
+    </File>
+    <File Include="packages.config">
+      <publishTime>11/25/2014 14:49:29</publishTime>
+    </File>
+    <File Include="Scripts/AddApp.js">
+      <publishTime>02/05/2015 14:10:39</publishTime>
+    </File>
+    <File Include="Scripts/AddPage.js">
+      <publishTime>02/25/2015 15:36:00</publishTime>
+    </File>
+    <File Include="Scripts/AppHome.js">
+      <publishTime>11/25/2014 14:52:32</publishTime>
+    </File>
+    <File Include="Scripts/jquery-2.1.1.js">
+      <publishTime>11/25/2014 14:49:29</publishTime>
+    </File>
+    <File Include="Scripts/jquery-2.1.1.min.js">
+      <publishTime>11/25/2014 14:49:29</publishTime>
+    </File>
+    <File Include="Scripts/jquery-2.1.1.min.map">
+      <publishTime>11/25/2014 14:49:29</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.11.2.js">
+      <publishTime>11/25/2014 14:48:18</publishTime>
+    </File>
+    <File Include="Scripts/jquery-ui-1.11.2.min.js">
+      <publishTime>11/25/2014 14:48:18</publishTime>
+    </File>
+    <File Include="Scripts/Login.js">
+      <publishTime>03/05/2015 09:56:21</publishTime>
+    </File>
+    <File Include="Scripts/ManagePage.js">
+      <publishTime>03/23/2015 14:23:35</publishTime>
+    </File>
+    <File Include="Scripts/Settings.js">
+      <publishTime>03/23/2015 14:23:54</publishTime>
+    </File>
+    <File Include="Scripts/Viewer.js">
+      <publishTime>03/25/2015 14:44:54</publishTime>
+    </File>
+    <File Include="Style/Mobile.css">
+      <publishTime>03/04/2015 10:28:56</publishTime>
+    </File>
+    <File Include="Style/Site.css">
+      <publishTime>03/25/2015 14:44:54</publishTime>
+    </File>
+    <File Include="Viewer.aspx">
+      <publishTime>03/25/2015 14:44:54</publishTime>
+    </File>
+    <File Include="Web.config">
+      <publishTime>03/25/2015 15:18:25</publishTime>
+    </File>
+  </ItemGroup>
+</Project>

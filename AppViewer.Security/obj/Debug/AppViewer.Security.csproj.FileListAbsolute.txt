@@ -1,0 +1,22 @@
+C:\TFS\AppViewer\Release Builds\1.2.1.1\AppViewer.Security\bin\Debug\AppViewer.Security.dll
+C:\TFS\AppViewer\Release Builds\1.2.1.1\AppViewer.Security\bin\Debug\AppViewer.Security.pdb
+C:\TFS\AppViewer\Release Builds\1.2.1.1\AppViewer.Security\bin\Debug\AppViewer.Audit.dll
+C:\TFS\AppViewer\Release Builds\1.2.1.1\AppViewer.Security\bin\Debug\AppViewer.Data.dll
+C:\TFS\AppViewer\Release Builds\1.2.1.1\AppViewer.Security\bin\Debug\AppViewer.Entities.dll
+C:\TFS\AppViewer\Release Builds\1.2.1.1\AppViewer.Security\bin\Debug\AppViewer.Audit.pdb
+C:\TFS\AppViewer\Release Builds\1.2.1.1\AppViewer.Security\bin\Debug\AppViewer.Data.pdb
+C:\TFS\AppViewer\Release Builds\1.2.1.1\AppViewer.Security\bin\Debug\AppViewer.Entities.pdb
+C:\TFS\AppViewer\Release Builds\1.2.1.1\AppViewer.Security\obj\Debug\AppViewer.Security.csprojResolveAssemblyReference.cache
+C:\TFS\AppViewer\Release Builds\1.2.1.1\AppViewer.Security\obj\Debug\AppViewer.Security.dll
+C:\TFS\AppViewer\Release Builds\1.2.1.1\AppViewer.Security\obj\Debug\AppViewer.Security.pdb
+C:\Users\a587726\Desktop\1.2.1.1\AppViewer.Security\bin\Debug\AppViewer.Security.dll
+C:\Users\a587726\Desktop\1.2.1.1\AppViewer.Security\bin\Debug\AppViewer.Security.pdb
+C:\Users\a587726\Desktop\1.2.1.1\AppViewer.Security\bin\Debug\AppViewer.Audit.dll
+C:\Users\a587726\Desktop\1.2.1.1\AppViewer.Security\bin\Debug\AppViewer.Data.dll
+C:\Users\a587726\Desktop\1.2.1.1\AppViewer.Security\bin\Debug\AppViewer.Entities.dll
+C:\Users\a587726\Desktop\1.2.1.1\AppViewer.Security\bin\Debug\AppViewer.Audit.pdb
+C:\Users\a587726\Desktop\1.2.1.1\AppViewer.Security\bin\Debug\AppViewer.Data.pdb
+C:\Users\a587726\Desktop\1.2.1.1\AppViewer.Security\bin\Debug\AppViewer.Entities.pdb
+C:\Users\a587726\Desktop\1.2.1.1\AppViewer.Security\obj\Debug\AppViewer.Security.csprojResolveAssemblyReference.cache
+C:\Users\a587726\Desktop\1.2.1.1\AppViewer.Security\obj\Debug\AppViewer.Security.dll
+C:\Users\a587726\Desktop\1.2.1.1\AppViewer.Security\obj\Debug\AppViewer.Security.pdb

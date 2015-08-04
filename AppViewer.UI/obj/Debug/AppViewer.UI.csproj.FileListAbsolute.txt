@@ -1,0 +1,30 @@
+C:\TFS\AppViewer\Release Builds\1.2.1.1\AppViewer.UI\bin\AppViewer.UI.dll
+C:\TFS\AppViewer\Release Builds\1.2.1.1\AppViewer.UI\bin\AppViewer.UI.pdb
+C:\TFS\AppViewer\Release Builds\1.2.1.1\AppViewer.UI\bin\AppViewer.Audit.dll
+C:\TFS\AppViewer\Release Builds\1.2.1.1\AppViewer.UI\bin\AppViewer.Business.dll
+C:\TFS\AppViewer\Release Builds\1.2.1.1\AppViewer.UI\bin\AppViewer.Entities.dll
+C:\TFS\AppViewer\Release Builds\1.2.1.1\AppViewer.UI\bin\AppViewer.Security.dll
+C:\TFS\AppViewer\Release Builds\1.2.1.1\AppViewer.UI\bin\AppViewer.Data.dll
+C:\TFS\AppViewer\Release Builds\1.2.1.1\AppViewer.UI\bin\AppViewer.Audit.pdb
+C:\TFS\AppViewer\Release Builds\1.2.1.1\AppViewer.UI\bin\AppViewer.Business.pdb
+C:\TFS\AppViewer\Release Builds\1.2.1.1\AppViewer.UI\bin\AppViewer.Entities.pdb
+C:\TFS\AppViewer\Release Builds\1.2.1.1\AppViewer.UI\bin\AppViewer.Security.pdb
+C:\TFS\AppViewer\Release Builds\1.2.1.1\AppViewer.UI\bin\AppViewer.Data.pdb
+C:\TFS\AppViewer\Release Builds\1.2.1.1\AppViewer.UI\obj\Debug\AppViewer.UI.csprojResolveAssemblyReference.cache
+C:\TFS\AppViewer\Release Builds\1.2.1.1\AppViewer.UI\obj\Debug\AppViewer.UI.dll
+C:\TFS\AppViewer\Release Builds\1.2.1.1\AppViewer.UI\obj\Debug\AppViewer.UI.pdb
+C:\Users\a587726\Desktop\1.2.1.1\AppViewer.UI\bin\AppViewer.UI.dll
+C:\Users\a587726\Desktop\1.2.1.1\AppViewer.UI\bin\AppViewer.UI.pdb
+C:\Users\a587726\Desktop\1.2.1.1\AppViewer.UI\bin\AppViewer.Audit.dll
+C:\Users\a587726\Desktop\1.2.1.1\AppViewer.UI\bin\AppViewer.Business.dll
+C:\Users\a587726\Desktop\1.2.1.1\AppViewer.UI\bin\AppViewer.Entities.dll
+C:\Users\a587726\Desktop\1.2.1.1\AppViewer.UI\bin\AppViewer.Security.dll
+C:\Users\a587726\Desktop\1.2.1.1\AppViewer.UI\bin\AppViewer.Data.dll
+C:\Users\a587726\Desktop\1.2.1.1\AppViewer.UI\bin\AppViewer.Audit.pdb
+C:\Users\a587726\Desktop\1.2.1.1\AppViewer.UI\bin\AppViewer.Business.pdb
+C:\Users\a587726\Desktop\1.2.1.1\AppViewer.UI\bin\AppViewer.Entities.pdb
+C:\Users\a587726\Desktop\1.2.1.1\AppViewer.UI\bin\AppViewer.Security.pdb
+C:\Users\a587726\Desktop\1.2.1.1\AppViewer.UI\bin\AppViewer.Data.pdb
+C:\Users\a587726\Desktop\1.2.1.1\AppViewer.UI\obj\Debug\AppViewer.UI.csprojResolveAssemblyReference.cache
+C:\Users\a587726\Desktop\1.2.1.1\AppViewer.UI\obj\Debug\AppViewer.UI.dll
+C:\Users\a587726\Desktop\1.2.1.1\AppViewer.UI\obj\Debug\AppViewer.UI.pdb

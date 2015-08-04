@@ -1,0 +1,57 @@
+﻿* {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    background-color: #efefef;
+    font-family: 'Segoe UI Light', 'Segoe UI', 'Helvetica Neue Light', 'Helvetica Neue', Helvetica, Verdana, sans-serif;
+    font-size: 14px;
+    color: #555555;
+    font-weight: 400;
+    overflow-y:auto;
+}
+
+.container {
+    width: 900px;
+    height: 460px;
+    margin: 0 auto;
+    margin-top: 40px;
+    border: 2px solid #aaaaaa;
+    background-color: #f3f3f3;
+    padding: 20px;
+    background-image: url(../Image/splashbackground.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    position: relative;
+}
+
+    .container h1 {
+        font-size: 56px;
+        margin: 20px 0 0 20px;
+    }
+
+    .container h2 {
+        font-size: 24px;
+        margin: 20px 0 0 20px;
+    }
+
+    .container p {
+        font-size: 18px;
+        margin: 80px 0 0 20px;
+    }
+
+.button {
+    display: block;
+    position: absolute;
+    left: 360px;
+    top: 420px;
+    background: #DFDFDF url(../Image/buttonbg.jpg) repeat-x 0 0;
+    padding: 10px;
+    text-decoration: none;
+    color: #252525;
+    border: 1px solid #777777;
+    border-radius: 3px;
+    vertical-align: middle;
+    font-size: 18pt;
+}

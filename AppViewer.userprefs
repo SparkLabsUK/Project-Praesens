@@ -1,0 +1,12 @@
+﻿<Properties StartupItem="AppViewer.UI/AppViewer.UI.csproj">
+  <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug" />
+  <MonoDevelop.Ide.Workbench ActiveDocument="AppViewer.UI/SITradeshow.aspx">
+    <Files>
+      <File FileName="AppViewer.UI/SITradeshow.aspx" Line="1" Column="1" />
+    </Files>
+  </MonoDevelop.Ide.Workbench>
+  <MonoDevelop.Ide.DebuggingService.Breakpoints>
+    <BreakpointStore />
+  </MonoDevelop.Ide.DebuggingService.Breakpoints>
+  <MonoDevelop.Ide.DebuggingService.PinnedWatches />
+</Properties>

@@ -1,0 +1,50 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site.master.cs" Inherits="AppViewer.UI.MasterPage.Site" %>
+
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+    <title></title>
+    <link href="../Style/Site.css" type="text/css" rel="stylesheet" />
+    <script src='<%= ResolveUrl("~/Scripts/jquery-2.1.1.min.js")%>'></script>
+    <script src='<%= ResolveUrl("~/Scripts/jquery-ui-1.11.2.min.js")%>'></script>
+    <script src='<%= ResolveUrl("~/Scripts/Site.js")%>'></script>
+    <link rel="icon" type="image/vnd.microsoft.icon" href="../favicon.ico"/>
+    <link rel="shortcut icon" type="image/vnd.microsoft.icon" href="../favicon.ico"/>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body>
+    <form id="form1" runat="server">
+
+    <div class="header" id="header"  >
+       <a id="lnkLogo" runat="server" href="~/AppViewerHome.aspx" class="atoslogo"><asp:Label ID="AppFlow" runat="server" class="logo" Text="AppFlow"></asp:Label></a>
+
+        <asp:LoginView ID="LoginView1" runat="server">
+            <AnonymousTemplate>
+                <a id="lnkLogin" runat="server" href="~/Account/Login.aspx" class="buttonlogin">Login</a>
+            </AnonymousTemplate>
+            <LoggedInTemplate>
+                <a id="lnkLogout" runat="server" href="~/Account/Login.aspx" class="buttonlogin">Logout</a>
+                <asp:LinkButton id="lnkSettings" CssClass="buttonlogin" runat="server" Text="Settings" OnClick="Settings_Click" ClientIDMode="Static"></asp:LinkButton>
+                <a id="lnkManageApps" runat="server" href="~/Account/ManageApps.aspx" class="buttonlogin">Manage Apps</a>
+                <asp:LinkButton id="lnkAudits" CssClass="buttonlogin" runat="server" Text="Audits" OnClick="lnkAudits_Click" ClientIDMode="Static"></asp:LinkButton>
+                <asp:Label ID="lblUsersName" runat="server" class="fullName"></asp:Label>
+            </LoggedInTemplate>
+            <RoleGroups>
+                <asp:RoleGroup Roles="Admin">
+
+                </asp:RoleGroup>
+            </RoleGroups>
+        </asp:LoginView>
+    </div>
+
+    <div>
+       
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+        </asp:ContentPlaceHolder>
+            
+    </div>
+    </form>
+</body>
+</html>
